@@ -1,8 +1,8 @@
 import react from "react";
 import proptype from "prop-types";
- const profile=(props)=>{
-    const  handlename=()=>{
-        alert ("profil:${props.fullname}");
+ const profil =(props)=>{
+    const handleName=()=>{
+        alert("profil:${props.fullname}");
 
     }
     return(
@@ -13,9 +13,9 @@ import proptype from "prop-types";
                     <p style ={{color='red'}}>{accessoires.bio}</p>
                     {accessoires.enfants}
             </div>
-            <a href="#" onclick={handleName} type={{couleur:'rouge'}}> Click</a>
-            Profil. defaultProps={
-    nom complet : "pas de Nom", 
+            <a href="#" onclick={handleName} type={{couleur:'red'}}> Click</a>
+    Profil. defaultProps={
+    nom complet:"pas de Nom", 
     bio:"Pas de biographie", 
     profession:"Pas de profession",
         </div>
