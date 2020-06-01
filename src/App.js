@@ -1,10 +1,10 @@
 import React from 'react';
-import profil  from './profile/profile';
+import profile  from './profile/profile.js';
 import './App.css';
 
 function App() {
   return (
-    <profil 
+    <profile 
     fullname="amine" 
       pre="aaaaaa"
       >
