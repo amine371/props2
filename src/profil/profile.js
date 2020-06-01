@@ -10,9 +10,9 @@ import proptypes from "prop-types";
             <h1 style={ { textTransform :'uppercase'}}>{props.fullname}</h1>
             < div style={{color:'red'{ accessoires.profession}}}>
                 <div style={{display:'flex'}}>
-                    <p style ={{color='red'}}>{accessoires.bio}</p>
-                    {accessoires.enfants}
-            </div>
+            <p style ={{color='red'}}>{accessoires.bio}</p>
+             {props.children}
+     </div>
             <a href="#" onclick={handleName} type={{couleur:'red'}}> Click</a>
     Profil. defaultProps={
     nom complet:"pas de Nom", 
