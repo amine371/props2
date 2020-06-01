@@ -1,5 +1,5 @@
 import react from "react";
-import proptype from "prop-types";
+import proptypes from "prop-types";
  const profil =(props)=>{
     const handleName=()=>{
         alert("profil:${props.fullname}");
