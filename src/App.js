@@ -14,7 +14,7 @@ function App() {
 
   );
 }
-profil.proptypes={
+profile.proptypes={
   fullname:proptypes.chaine,
   pre:proptypes.chaine,
 }
