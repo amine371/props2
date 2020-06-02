@@ -18,7 +18,7 @@ import proptypes from "prop-types";
     fullName: "No Name", 
     bio: "No Biography", 
     profession: "No Profession",
-    img: <img src = {amine.jpg} alt = "amine.jpg"/>
+    <img src = {amine.jpg} alt = "amine.jpg"/>
 
     )
     }
