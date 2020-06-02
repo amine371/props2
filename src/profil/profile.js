@@ -8,7 +8,7 @@ import proptypes from "prop-types";
     return(
         <div style={{margin:40}}>
             <h1 style={ { textTransform :'uppercase'}}>{props.fullname}</h1>
-            < div style={{color:'red'}}>{props.profession}
+            < div style={{color:'red'}}>{props.profession}>
                 <div style={{display:'flex'}}>
             <p style ={{color='red'}}>{props.bio}</p>
              {props.children}
