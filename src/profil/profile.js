@@ -1,15 +1,15 @@
 import react from "react";
-import proptypes from "prop-types";
- const profil =(props)=>{
+import PropTypes from "PropTypes";
+ const profile =(props)=>{
     const handleName=()=>{
-        alert("profil:${props.fullname}");
+        alert("profil:${props.fullName}");
 
     }
     return(
         <div style={{margin:40}}>
-            <h1 style={ { textTransform :'uppercase'}}>{props.fullname}</h1>
-            < div style={{color:'red'}}>{props.profession}>
-                <div style={{display:'flex'}}>
+            <h1 style={ { textTransform :'uppercase'}}>{props.fullName}</h1>
+            <div style={{color:'red'}}>{props.profession}</div>
+                <div style={{display:'flex'}}</div>
             <p style ={{color='red'}}>{props.bio}</p>
              {props.children}
      </div>
@@ -22,4 +22,4 @@ import proptypes from "prop-types";
     profession: "No Profession",
     <img src = {amine.jpg} alt = "amine.jpg"/>
 }
-export default profil;
+export default profile;
