@@ -1,6 +1,7 @@
 import React from 'react';
-import profile  from './profile/profile.js';
+import PropTypes from 'prop-types';
 import './App.css';
+import Img from './amine.jpg';
 
 function App() {
   return (
@@ -14,9 +15,9 @@ function App() {
 
   );
 }
-profile.proptypes={
-  fullname:proptypes.chaine,
-  pre:proptypes.chaine,
+profile.PropTypes={
+  fullname:PropTypes.string,
+  pre:PropTypes.string,
 }
 
 
