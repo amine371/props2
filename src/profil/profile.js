@@ -13,7 +13,7 @@ import proptypes from "prop-types";
             <p style ={{color='red'}}>{props.bio}</p>
              {props.children}
      </div>
-            <a href="#" onlick={handleName} type={{couleur:'red'}}> Click</a>
+            <a href="#" onClick={handleName} type={{couleur:'red'}}> Click</a>
      Profile.defaultProps = {
     fullName: "No Name", 
     bio: "No Biography", 
