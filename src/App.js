@@ -1,24 +1,21 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import './App.css';
-import Img from './amine.jpg';
+import React from "react";
+import PropTypes from "prop-types";
+import Profile from "./Profile/Profile";
+import image from "./amine.jpg";
+import "./App.css";
 
 function App() {
   return (
-    <profile 
-    fullname="amine" 
-      pre="aaaaaa"
-      >
-        <img src ="img"
-         alt ="amine.jpg"/>
-        </profil>
-
+    <Profile fullName="amine" profession="Student">
+      <img src={image} alt="img" />
+    </Profile>
   );
 }
-profile.PropTypes={
-  fullname:PropTypes.string,
-  pre:PropTypes.string,
-}
 
+Profile.proptypes = {
+  fullName: PropTypes.string.isRequired,
+  profession: PropTypes.string.isRequired,
+  bio: PropTypes.string
+};
 
 export default App;
