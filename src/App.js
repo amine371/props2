@@ -18,4 +18,4 @@ Profile.proptypes = {
   bio: PropTypes.string
 };
 
-export default App;
+export default App
