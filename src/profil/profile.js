@@ -27,3 +27,4 @@ Profile.defaultProps = {
   profession: "No Profession"
 };
 export default Profile;
+
